@@ -1,0 +1,13 @@
+{
+  "name": "Sid's HN Plugin",
+  "manifest_version": 2,
+  "version": "2.1",
+  "description": "Reformats hacker news.",
+  "content_scripts": [
+    {
+      "matches": ["https://news.ycombinator.com/news"],
+      "js": ["jquery.js", "script.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
