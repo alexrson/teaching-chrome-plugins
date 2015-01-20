@@ -1,11 +1,11 @@
 {
-  "name": "Sid's HN Plugin",
+  "name": "Alex's HN Plugin",
   "manifest_version": 2,
   "version": "2.1",
-  "description": "Reformats hacker news.",
+  "description": "Recolors hacker news.",
   "content_scripts": [
     {
-      "matches": ["https://news.ycombinator.com/news"],
+      "matches": ["https://news.ycombinator.com/*", "http://www.yelp.com/*"],
       "js": ["jquery.js", "script.js"],
       "css": ["styles.css"]
     }
